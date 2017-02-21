@@ -10,12 +10,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 90vh;
 }
 
-.login-page {
-  width: 360px;
-  padding: 8% 0 0;
+/* Logo Victransa */
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
 }
 
 /* Validation form */
@@ -88,3 +92,4 @@ body {
   color: #444444;
   font-size: 18px;
 }
+
