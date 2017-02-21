@@ -11,21 +11,21 @@
 <body>
     <div class="login-page">
         <div class="form">
-            <form class="register-form">
-                <input type="text" placeholder="name" />
-                <input type="password" placeholder="password" />
-                <input type="text" placeholder="email address" />
-                <button>create</button>
-                <p class="message">Already registered? <a href="#">Sign In</a></p>
-            </form>
-            <form class="login-form">
+            <div class="invalid transform">
+                <span>¡Atencion!</span>
+                <p class="message">Esta página web no es totalmente funcional con navegadores diferentes a Microsoft Internet Explorer</p>
+                <button class="continue">Continuar</button>
+            </div>
+            <form class="login-form transform">
                 <input type="text" placeholder="Usuario" />
                 <input type="password" placeholder="Contraseña" />
                 <button>login</button>
-                <p class="message">Problemes de conexió? <a href="#">Clica aqui</a></p>
+                <!--<p class="message">Problemes de conexió? <a href="#">Clica aqui</a></p>-->
             </form>
         </div>
     </div>
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
