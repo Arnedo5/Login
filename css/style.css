@@ -112,3 +112,34 @@ body {
   width: 80px;
   right: 0px;
 }
+
+@media (max-width: 991px) {
+    .logo1 {
+      display: none;
+    }
+
+    .logo2 {
+      height: auto;
+      width: 300px;
+    }
+
+
+    .logo {
+        margin-bottom: 30px;
+    }
+
+    .form {
+      margin: 10px;
+      height: auto;
+    }
+
+    .andsoft {
+      margin: 30px 10px;
+    }
+
+    body {
+      height: 120vh;
+    }
+
+
+}

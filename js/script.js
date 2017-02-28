@@ -10,14 +10,13 @@ if (isIE == false) {
 }
 
 
-
+/* Check browser */
 if (isIE == false) {
     console.log("rotate");
     $('.transform').animate({
         height: "toggle",
         opacity: "toggle"
     }, "slow");
-    
 }
 
 /* On click buttom*/
