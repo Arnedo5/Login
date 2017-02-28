@@ -17,7 +17,10 @@ if (isIE == false) {
         height: "toggle",
         opacity: "toggle"
     }, "slow");
+    
 }
+
+/* On click buttom*/
 $('.message a, .continue').click(function () {
     $('.transform').animate({
         height: "toggle",
