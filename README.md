@@ -11,7 +11,6 @@ Nuevo login para la ERP de [Victransa](http://red.victransa.com). Nuevo estilo s
 **Lista de incorporaciones**
 - [x] Deteccion automàtica del navegador en el cual se està ejecutando la página web.
 - [x] Transiciones al detectar el navegador <del>Internet Explorer</del>
-- [x] 
 
 **Futuras funcionalidades**
 - [ ] Implementar pàgina de conexión fallida
