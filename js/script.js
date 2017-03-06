@@ -9,7 +9,6 @@ if (isIE == false) {
     console.log("YES Internet explorer");
 }
 
-
 /* Check browser */
 if (isIE == false) {
     console.log("rotate");
